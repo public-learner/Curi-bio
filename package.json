@@ -1,0 +1,55 @@
+{
+  "name": "curi_bio",
+  "version": "1.0.0",
+  "description": "Curi bio test project",
+  "main": "app.ts",
+  "scripts": {
+    "test": "npm test",
+    "build": "npx tsc --project ./",
+    "dev": "nodemon app.ts",
+    "start": "node app.tss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/public-learner/Curi-bio.git"
+  },
+  "keywords": [
+    "Curi",
+    "Bio",
+    "Test"
+  ],
+  "author": "Justin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/public-learner/Curi-bio/issues"
+  },
+  "homepage": "https://github.com/public-learner/Curi-bio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.29.0",
+    "sqlite3": "^5.1.4",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.14.2",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "underscore": "^1.13.6"
+  }
+}
